@@ -1,0 +1,89 @@
+body {
+    background-color: #000;
+    color: #009a00;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header {
+    background: linear-gradient(to right, rgba(0, 189, 44, 0.649), rgba(0, 77, 21, 0.752));
+    padding: 20px ;
+    height: 60px;
+
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+    color: #000;
+    text-align: start;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: end;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+nav a {
+    text-decoration: gray;
+    color: #000;
+    font-weight: bold;
+}
+.destinos {
+    background-color: #111;
+    padding: 60px;
+    text-align: center;
+}
+
+.destinos h2 {
+    color: #00FF00;
+    margin-bottom: 20px;
+}
+
+.destino {
+    margin-bottom: 40px;
+}
+
+.destino img {
+    width: 400px;
+    height: 200px;
+}
+
+.destino h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.destino p {
+    color: #999;
+}
+
+.destino a {
+    color: #00FF00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.destino a:hover {
+    color: #009900;
+}
+
+footer {
+    background: linear-gradient(to right, rgba(0, 189, 44, 0.649), rgba(0, 77, 21, 0.752));
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    color: #000;
+    font-size: 14px;
+    margin: 0;
+}
